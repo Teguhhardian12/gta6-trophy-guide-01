@@ -2,6 +2,7 @@
   "game": "Grand Theft Auto VI",
   "platform": "PlayStation 5",
   "list": "the official 55 trophies, 2026-11-18",
+  "version": 2,
   "trophies": [
     {
       "id": 1,
@@ -108,6 +109,7 @@
       "chapter": 5,
       "kind": "story",
       "missable": false,
+      "phase": "endgame",
       "guide": "The gold for finishing the campaign: complete No Better Place Than This, the final mission of Chapter 5. It is the last story beat, so just play to the credits.",
       "steps": [
         "Reach the Chapter 5 finale.",
@@ -220,7 +222,8 @@
       "chapter": 0,
       "kind": "completion",
       "missable": false,
-      "guide": "The 100% completion gold and the longest grind in the game. The checklist: 8 Bank Vaults and 39 Gang Operations robbed, gold in all 42 Shooting Range challenges, 42 Top Fun races won, 15 Target Decks cleared, 100 optional missions, 200 of 277 vehicle scans, 100 of 255 animal studies, 15 of 18 meditations, 70 of 80 challenges, 300 of 397 stunts and 100 WAiNK scans.",
+      "phase": "endgame",
+      "guide": "The 100% completion gold and the longest grind in the game. The checklist: 8 Bank Vaults and 39 Gang Operations robbed, gold in all 42 Shooting Range challenges, 42 Top Fun races won, 15 Target Decks cleared, 100 optional missions, 200 of 277 vehicle scans, 100 of 255 animal studies, 15 of 18 meditations, 70 of 80 challenges, 300 of 397 stunts and 100 WAiNK scans. The fastest route is a district-by-district sweep: chain stunts, WAiNK scans and vault hits along one loop per region so every counter climbs without backtracking.",
       "steps": [
         "Work the completion checklist category by category.",
         "Use the in-game 100% tracker to find gaps.",
@@ -236,7 +239,7 @@
       "chapter": 0,
       "kind": "activity",
       "missable": false,
-      "guide": "Complete 250 of the 397 stunts scattered around Leonida. The pool breaks down into 130 jumps, 202 bridges, 40 knife flights and 25 base jumps, so mix and match whichever types you enjoy.",
+      "guide": "Complete 250 of the 397 stunts scattered around Leonida. The pool breaks down into 130 jumps, 202 bridges, 40 knife flights and 25 base jumps, so mix and match whichever types you enjoy. The fastest route to 250 is farming the 202 bridge stunts in dense clusters with a fast car, then topping up with the nearest jumps — you can skip knife flights and base jumps entirely.",
       "steps": [
         "Pick stunt types you like; jumps and bridges are the biggest pools.",
         "Use a fast vehicle for gaps and a plane for knife flights.",
@@ -492,7 +495,7 @@
       "chapter": 0,
       "kind": "collect",
       "missable": false,
-      "guide": "WAiNK It at 100 points of interest. The pool includes 31 landmarks, 35 curiosities, 23 sculptures and the No Flusher tags, so scan whatever you pass and keep a running tally.",
+      "guide": "WAiNK It at 100 points of interest. The pool includes 31 landmarks, 35 curiosities, 23 sculptures and the No Flusher tags, so scan whatever you pass and keep a running tally. The fastest route is sweeping the 31 landmarks and 35 curiosities first since they cluster in town, then the 23 sculptures, and topping up with No Flusher tags until the counter hits 100.",
       "steps": [
         "Scan landmarks, curiosities and sculptures with WAiNK.",
         "Do not skip the No Flusher tags.",
@@ -541,6 +544,7 @@
       "kind": "heist",
       "missable": false,
       "guide": "Rob 3 shops back-to-back with your partner without losing your wanted level. Keep the heat alive between hits: route three stores close together and move fast.",
+      "planning": "Run it with your partner: pick three stores on one block, keep the car idling at the curb, and move between hits fast enough that the wanted level never drops.",
       "steps": [
         "Plan a route of 3 nearby shops.",
         "Rob them in a row with your partner.",
@@ -621,6 +625,7 @@
       "kind": "heist",
       "missable": false,
       "guide": "Rob a jewelry store without being detected. Go in quiet, stay out of sight lines and grab the goods before anyone raises the alarm; stealth is the whole condition.",
+      "planning": "Go in solo after dark, enter from the rear while the clerk faces the counter, and slip out the same way before the alarm ever trips.",
       "steps": [
         "Case a jewelry store.",
         "Rob it without triggering detection.",
@@ -637,6 +642,7 @@
       "kind": "heist",
       "missable": false,
       "guide": "Rob 5 Bank Vaults and escape with the take. Each vault counts only if you get away, so plan exits and lose the heat after every hit.",
+      "planning": "Bring your partner to watch the lobby, park a fast car facing the exit, and lose the heat in a nearby alley after each vault so every hit counts.",
       "steps": [
         "Hit bank vaults across the state.",
         "Escape after each robbery.",
@@ -653,6 +659,7 @@
       "kind": "heist",
       "missable": false,
       "guide": "Rob an Armored Truck and escape. Stop the truck, take the cash and get clear of the response; the escape is part of the condition.",
+      "planning": "Box the truck in on a quiet street with your partner covering the guards, then take the cash and escape down a side road before the response arrives.",
       "steps": [
         "Intercept an armored truck.",
         "Rob it.",
