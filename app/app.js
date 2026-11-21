@@ -217,8 +217,13 @@ $('#import').addEventListener('change', async (e) => {
   }
 });
 
-if (shot === 'detail') {
+if (shot) {
   state.spoilers = true; // showcase scenes show the full guide
+  // Sample progress so captures show a used tracker (8/55, spread over chapters).
+  // Seeded only when there is no saved progress, and never written back to localStorage.
+  if (!earned.size) for (const id of [2, 3, 8, 12, 14, 15, 16, 20]) earned.add(id);
+}
+if (shot === 'detail') {
   const id = Number(q.get('id'));
   if (byId.has(id)) selected = id;
 }
