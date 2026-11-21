@@ -34,3 +34,4 @@ writeFileSync(
   join(out, 'dossier.json'),
   buildDossier(out, { text_max_bytes: 163840, screenshots: { max: 4, max_bytes: 262144 }, app_max_files: 993, app_max_bytes: 50331648 }),
 );
+writeFileSync(join(out, 'build-info.json'), JSON.stringify({ app: 'trophy-atlas', trophies: 55 }));
